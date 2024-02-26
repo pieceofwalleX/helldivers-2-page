@@ -24,16 +24,19 @@ export function Navbar(){
                </a>
                <div className="mx-10">
                     <ul className="flex text-white font-semibold font-overpass tracking-widest gap-12 text-lg z-50">
-                        <a className="hover:cursor-pointer">
+                        <a className="hover:cursor-pointer hover:text-blue-500 transition duration-200 ease-out">
                             ENLIST
                         </a>
-                        <a href="https://www.arrowheadgamestudios.com/blog/" className="hover:cursor-pointer">
+                        <a href="https://www.arrowheadgamestudios.com/blog/" 
+                        className="hover:cursor-pointer hover:text-blue-500 transition duration-200 ease-out">
                             BLOG
                         </a>
-                        <a href="https://jobs.arrowheadgamestudios.com" className="hover:cursor-pointer">
+                        <a href="https://jobs.arrowheadgamestudios.com" 
+                        className="hover:cursor-pointer hover:text-blue-500 transition duration-200 ease-out">
                             JOBS
                         </a>
-                        <a href="https://arrowhead.zendesk.com/hc/en-us" className="hover:cursor-pointer">
+                        <a href="https://arrowhead.zendesk.com/hc/en-us" 
+                        className="hover:cursor-pointer hover:text-blue-500 transition duration-200 ease-out">
                             SUPPORT
                         </a>
                     </ul>

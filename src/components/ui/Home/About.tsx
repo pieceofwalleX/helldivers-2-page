@@ -59,7 +59,7 @@ export function About(){
                         </div>
                     </div>
                 </div>
-                <div className="flex bg-sky-600 h-72 items-center justify-between px-72">
+                <div className="flex bg-sky-600 h-72 items-center justify-between px-72 my-auto">
                     <img src={logo} className="w-[35rem]"/>
                     <div className="flex items-center">
                         <img src={playstation} className="w-[35rem] fill-black"/>

@@ -17,10 +17,10 @@ export function Hero(){
                 <img className="absolute w-auto bottom-48 left-[calc(50%-240px)]" src={helldivers}/>
                 <div className='absolute bottom-[calc(50%-5rem)] right-5 text-2xl font-display font-medium tracking-wide h-36 flex flex-row items-center 
                 gap-5'>
-                    <div className='font-russo text-black font-normal text-xl tracking-wider'>
+                    <div className='font-russo text-yellow-400 text-border-black text-border-1 font-normal text-xl tracking-wider'>
                         PLAY
                     </div>
-                    <ul className='flex-col flex gap-8 border-l-2 border-dotted border-black h-28'>
+                    <ul className='flex-col flex gap-8 border-l-2 border-dotted border-yellow-400 h-28'>
                         <a href="https://store.steampowered.com/app/553850/HELLDIVERS_2/" className='pl-2 pt-3'>
                             <FontAwesomeIcon icon={faSteam} className='size-7'/>
                         </a>
